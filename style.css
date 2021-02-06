@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 body{
@@ -46,7 +46,7 @@ body{
     align-items: center;/*horizontal*/
     justify-content: space-around;/*vertical*/
     flex-direction: column;
-    width: 50%;
+    width: 45%;
     min-height: 34rem;
 }
 .group{
@@ -76,7 +76,10 @@ body{
     margin-top: 1rem;
 }
 .not-account{
-    color: #0095f6;;
+    color: rgb(160, 160, 160);
+}
+.link-blue{
+    color: #0095f6;
 }
 .get-the-app{
     display: flex;
@@ -88,8 +91,8 @@ body{
 }
 .download{
     display: flex;
-    width: 100%;background-image: ;
-    justify-content: space-evenly;/*mesmo espaço dos lados e no meio,vaio ficar no meio*/
+    width: 100%;
+    justify-content: space-evenly;/*mesmo espaço dos lados e no meio,vai ficar no meio*/
     align-items: center;
     padding: 1rem;
 }
@@ -104,12 +107,14 @@ body{
 .app-download:nth-child(2){
     background-image: url(img/googleplay-button.png);
 }
-@media(max-width: 1024px){
+
+/* Adionando responsividade*/
+@media (max-width: 1024px) {
     .instagram-wrapper{
         width: 90%;
     }
 }
-@media(max-width:650px){
+@media (max-width:650px) {
     body{
         background-color: #ffffff;
     }
